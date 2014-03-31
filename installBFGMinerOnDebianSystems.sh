@@ -52,7 +52,7 @@ list_debian_packages_to_be_installed () {
     echo automake
     echo libtool
     echo pkg-config
-    echo libcurl4-gnutls-dev
+#    echo libcurl4-gnutls-dev # conflicts
     echo libjansson-dev
     echo uthash-dev
     echo libncursesw5-dev
