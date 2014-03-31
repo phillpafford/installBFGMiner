@@ -70,11 +70,11 @@ list_debian_packages_to_be_installed () {
     echo curl
     echo libcurl4-openssl-dev
     echo make
-    echo libhid-dev
+#    echo libhid-dev # not found on ubuntu
     echo libusb-dev
 
     # do these exists ???
-    echo libusbx
+#    echo libusbx
 }
 
 install_required_debian_packages () {
