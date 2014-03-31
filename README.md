@@ -22,4 +22,9 @@ If you'd like to add support for another system please create a PR
 
 Note: Make sure you grant permissions so the script will run ( chmod 775 )
 
-usage: ./installBFGMinerOnDebianSystems.sh
+usage
+===============
+
+chmod +x installBFGMinerOnDebianSystems.sh
+
+./installBFGMinerOnDebianSystems.sh
