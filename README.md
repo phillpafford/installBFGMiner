@@ -27,4 +27,4 @@ usage
 
 chmod +x installBFGMinerOnDebianSystems.sh
 
-./installBFGMinerOnDebianSystems.sh
+sudo ./installBFGMinerOnDebianSystems.sh

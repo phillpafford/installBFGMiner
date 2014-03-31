@@ -78,7 +78,7 @@ list_debian_packages_to_be_installed () {
 }
 
 install_required_debian_packages () {
-    sudo apt-get install list_debian_packages_to_be_installed | tr "\\n" " "
+    sudo apt-get install $(list_debian_packages_to_be_installed) | tr "\\n" " "
 }
 
 list_bfgminer_tags () {
